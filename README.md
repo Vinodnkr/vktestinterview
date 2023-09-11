@@ -1,87 +1,22 @@
-The goal of this coding exam is to quickly get you off the ground with **Lists and Keys**.
+SKIMBOX - Assignment
 
-### Refer to the image below:
+ccbp_interview_updates 9:08 PM
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/multilingual-greetings-output.gif" alt="multilingual-greetings" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+Update on SKIMBOX - Assignment Hello,
 
-### Design Files
+Greetings from NxtWave!
 
-<details>
-<summary>Click to view</summary>
+Your profile got shortlisted for the SKIMBOX Company.
 
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/multilingual-greetings-lg-output.png)
+Assignment Link:
 
-</details>
+1. Mobile design : https://drive.google.com/file/d/10uAg69gYUShr-tNooZe8mIkChdyvAVLP/view?usp=sharing
+2. Web design: https://drive.google.com/file/d/1Bfw-99GvmuVwa04y1ttpY7o9aHFqiKIq/view?usp=sharing
 
-### Set Up Instructions
+Note: Need to do both the tasks which is shared above
 
-<details>
-<summary>Click to view</summary>
+Note
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+Please note that the assignment is an important part of the selection process, and we encourage you to take your time and complete it to the best of your ability. We will share the assignment submission details before the deadline. Deadline to complete the assignment: Sep 12th, 5 Pm
 
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, the **English** language button should be active and the **English** greeting image should be displayed.
-- When the user clicks on a language button, then the corresponding greeting image should be displayed.
-- The `App` component consists of the `languageGreetingsList`. It consists of a list of image details objects with the following properties in each object
-
-  | Key          | Data Type |
-  | ------------ | --------- |
-  | id           | Number    |
-  | imageUrl     | String    |
-  | buttonText   | String    |
-  | imageAltText | String    |
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instruction is required for the tests to pass**
-
-- The image should have the alt attribute value as the key `imageAltText` from `languageGreetingsList` provided
-
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #db1c48; width: 150px; padding: 10px; color: black">Hex: #db1c48</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-# vktestinterview
+All the best!
