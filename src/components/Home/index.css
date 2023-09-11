@@ -1,0 +1,85 @@
+.home-select1 {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.bg {
+  background-image: linear-gradient(to right, white, white, rgb(225, 242, 245));
+}
+
+.home-button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.home-button.selected {
+  background-color: #333;
+  color: #fff;
+}
+
+.home-select {
+  text-align: center;
+  border: 3px solid rgb(65, 145, 182);
+
+  border-radius: 50px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  border: 3px solid rgb(65, 145, 182);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.month-rate {
+  display: flex;
+  align-items: center;
+}
+
+.p-font {
+  font-size: 50px;
+}
+.p-font1 {
+  font-size: 15px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '✓';
+}
+
+.op {
+  display: flex;
+  flex-direction: row;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.back {
+  background-color: rgb(143, 206, 206);
+  background-size: cover;
+  width: 100%;
+}
+.op-btn {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  width: 200px;
+}
