@@ -3,6 +3,7 @@
   flex-direction: column;
   border: 0 solid #09142b;
   box-sizing: border-box;
+  width: 100%;
 }
 .navbar-container {
   padding: 15px;
@@ -55,9 +56,23 @@ button:hover {
   background-color: #fff;
   color: #333;
 }
+
 @media screen and (max-width: 480px) {
   .app-container {
     display: none;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  .logo1 {
+    width: 30px;
+    height: 30px;
+    text-align: center;
   }
 }
 
@@ -65,4 +80,13 @@ button:hover {
   .mobile-container {
     display: none;
   }
+  .app-container {
+    display: flex;
+  }
+}
+.st.btn {
+  text-decoration: underline;
+}
+.mob-title {
+  display: flex;
 }

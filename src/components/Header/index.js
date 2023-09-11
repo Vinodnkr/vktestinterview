@@ -1,11 +1,23 @@
 import {AiOutlineDown} from 'react-icons/ai'
 
+import {RxHamburgerMenu} from 'react-icons/rx'
+
 import './index.css'
 
 const Header = () => (
   <>
     <div className="mobile-container">
-      <h1>Only desktop are visible the screen</h1>
+      <div className="mob-title">
+        <img
+          src="https://imageupload.io/ib/MrWDHhsm4loLVGi_1694459536.png"
+          alt="shopify-favicon"
+          className="logo1"
+        />
+
+        <p>shopify</p>
+      </div>
+      <p className="st-btn">Start free trial</p>
+      <RxHamburgerMenu />
     </div>
 
     <div className="app-container">

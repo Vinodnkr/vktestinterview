@@ -39,11 +39,13 @@ const Home = () => {
 
         <div className="op">
           <div className="options">
+            <p className="popular">MOST POPULAR</p>
             <h2>Basic</h2>
             <p>FOR INDIVIDUALS & SMALL BUSINESSES</p>
             <p>
-              Everything you need to create your store, ship products, and
-              process payments
+              Everything you need to create your store, ship products,
+              <br />
+              and process payments
             </p>
             <div className="month-rate">
               <p className="p-font">₹1,994</p>
@@ -66,8 +68,8 @@ const Home = () => {
             <h2>Shopify</h2>
             <p>FOR SMALL BUSINESSES</p>
             <p>
-              Level up your business with professional reporting and more staff
-              accounts
+              Level up your business with professional reporting and <br />
+              more staff accounts
             </p>
             <div className="month-rate">
               <p className="p-font">₹7,447</p>
@@ -90,8 +92,8 @@ const Home = () => {
             <h2>Advanced</h2>
             <p>FOR MEDIUM TO LARGE BUSINESSES</p>
             <p>
-              Get the best of Shopify with custom reporting and our lowest
-              transaction fees
+              Get the best of Shopify with custom reporting and our <br />
+              lowest transaction fees
             </p>
             <div className="month-rate">
               <p className="p-font">₹30,164</p>
@@ -110,6 +112,33 @@ const Home = () => {
             <button className="op-btn">Try for free</button>
           </div>
         </div>
+      </div>
+
+      <div className="mob">
+        <div className="mob-btn">
+          <button className="btn">Basic</button>
+          <button className="btn">Shopify</button>
+          <button className="btn">Advanced</button>
+        </div>
+      </div>
+      <div className="btn-mob">
+        <div className="month-rate">
+          <p className="mob-p">₹1,994</p>
+          <p>
+            INR <br />
+            /mo
+          </p>
+        </div>
+        <p className="bold back back1">Get your first 3 months for ₹20/mo</p>
+        <p className="bold">What's included on Basic</p>
+        <ul>
+          <li>Basic reports </li>
+          <li>Up to 1,000 inventory locations</li>
+          <li>2 staff accounts</li>
+        </ul>
+        <button type="button" className="mob-btn1">
+          Try for free
+        </button>
       </div>
     </>
   )

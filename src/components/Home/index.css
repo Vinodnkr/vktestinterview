@@ -40,6 +40,19 @@
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
+  background-color: white;
+}
+
+.options.hover {
+  border: 5px solid rgb(65, 145, 182);
+}
+
+.popular {
+  color: black;
+  background-image: linear-gradient(50deg, #b1f5fa 0%, #4dff9e 96.94%);
+  text-align: center;
+  border-radius: 10px;
+  width: 150px;
 }
 
 .month-rate {
@@ -72,9 +85,10 @@ ul li:before {
 }
 
 .back {
-  background-color: rgb(143, 206, 206);
+  background-color: rgb(181, 235, 235);
   background-size: cover;
   width: 100%;
+  border: 1px solid rgb(136, 223, 223);
 }
 .op-btn {
   background-color: #333;
@@ -82,4 +96,53 @@ ul li:before {
   text-align: center;
   padding: 15px;
   width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .bg {
+    display: none;
+  }
+  .btn {
+    border: 1px solid black;
+    border-radius: 0px;
+
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .bg {
+    display: display;
+  }
+  .mob,
+  .btn-mob {
+    display: none;
+  }
+}
+
+.mob-btn {
+  display: flex;
+  width: 100%;
+
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.back1 {
+  padding: 10px;
+}
+
+.mob-p {
+  margin: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.mob-btn1 {
+  margin: 50px;
+  text-align: center;
+  width: 70%;
+  height: 50px;
 }
