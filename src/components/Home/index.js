@@ -4,9 +4,14 @@ import './index.css'
 
 const Home = () => {
   const [selectedOption, setSelectedOption] = useState('monthly')
+  const [selectedOptionBtn, setSelectedOptionBtn] = useState('basic')
 
   const handleOptionChange = option => {
     setSelectedOption(option)
+  }
+
+  const handleOptionChangeBtn = option => {
+    setSelectedOptionBtn(option)
   }
 
   return (
@@ -79,7 +84,7 @@ const Home = () => {
               </p>
             </div>
             <p className="bold back">Get your first 3 months for ₹20/mo</p>
-            <p className="bold">What's included on Basic</p>
+            <p className="bold">What's included on Shopify</p>
             <ul>
               <li>Professional reports</li>
               <li>Up to 1,000 inventory locations</li>
@@ -116,30 +121,91 @@ const Home = () => {
 
       <div className="mob">
         <div className="mob-btn">
-          <button className="btn">Basic</button>
-          <button className="btn">Shopify</button>
-          <button className="btn">Advanced</button>
+          <button
+            onClick={() => handleOptionChangeBtn('basic')}
+            className="btn"
+          >
+            Basic
+          </button>
+          <button
+            onClick={() => handleOptionChangeBtn('shopify')}
+            className="btn"
+          >
+            Shopify
+          </button>
+          <button
+            onClick={() => handleOptionChangeBtn('advance')}
+            className="btn"
+          >
+            Advanced
+          </button>
         </div>
       </div>
-      <div className="btn-mob">
-        <div className="month-rate">
-          <p className="mob-p">₹1,994</p>
-          <p>
-            INR <br />
-            /mo
-          </p>
+      {selectedOptionBtn === 'basic' && (
+        <div className="btn-mob">
+          <div className="month-rate">
+            <p className="mob-p">₹1,994</p>
+            <p>
+              INR <br />
+              /mo
+            </p>
+          </div>
+          <p className="bold back back1">Get your first 3 months for ₹20/mo</p>
+          <p className="bold">What's included on Basic</p>
+          <ul>
+            <li>Basic reports </li>
+            <li>Up to 1,000 inventory locations</li>
+            <li>2 staff accounts</li>
+          </ul>
+          <button type="button" className="mob-btn1">
+            Try for free
+          </button>
         </div>
-        <p className="bold back back1">Get your first 3 months for ₹20/mo</p>
-        <p className="bold">What's included on Basic</p>
-        <ul>
-          <li>Basic reports </li>
-          <li>Up to 1,000 inventory locations</li>
-          <li>2 staff accounts</li>
-        </ul>
-        <button type="button" className="mob-btn1">
-          Try for free
-        </button>
-      </div>
+      )}
+
+      {selectedOptionBtn === 'shopify' && (
+        <div className="btn-mob">
+          <div className="month-rate">
+            <p className="mob-p">₹7,447</p>
+            <p>
+              INR <br />
+              /mo
+            </p>
+          </div>
+          <p className="bold back back1">Get your first 3 months for ₹20/mo</p>
+          <p className="bold">What's included on Shopify</p>
+          <ul>
+            <li>Professional reports </li>
+            <li>Up to 1,000 inventory locations</li>
+            <li>5 staff accounts</li>
+          </ul>
+          <button type="button" className="mob-btn1">
+            Try for free
+          </button>
+        </div>
+      )}
+
+      {selectedOptionBtn === 'advance' && (
+        <div className="btn-mob">
+          <div className="month-rate">
+            <p className="mob-p">₹30,164</p>
+            <p>
+              INR <br />
+              /mo
+            </p>
+          </div>
+          <p className="bold back back1">Get your first 3 months for ₹20/mo</p>
+          <p className="bold">What's included on Advanced</p>
+          <ul>
+            <li>Custom report builder </li>
+            <li>Up to 1,000 inventory locations</li>
+            <li>15 staff accounts</li>
+          </ul>
+          <button type="button" className="mob-btn1">
+            Try for free
+          </button>
+        </div>
+      )}
     </>
   )
 }
